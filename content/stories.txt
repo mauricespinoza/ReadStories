@@ -1,0 +1,375 @@
+# CamiloReading — story library
+# Format:
+#   === id            (starts a new story)
+#   key: value        (title, title_es, tags, level, emoji, source)
+#   ---               (start of text)
+#   English sentence || Spanish sentence      (one sentence per line)
+#   (blank line)      = new paragraph
+# Tags: magia, aventuras, ciencia, animales, espacio, dinosaurios, deportes, misterio
+# Levels: 1 = fácil, 2 = medio, 3 = desafío
+# All stories here are original texts or new retellings of public-domain tales,
+# released under CC0 (no rights reserved).
+
+=== little-wizard
+title: The Little Wizard's First Spell
+title_es: El primer hechizo del pequeño mago
+tags: magia
+level: 1
+emoji: 🪄
+source: Original (CC0)
+---
+Tom was a little wizard. || Tom era un pequeño mago.
+He lived in a tall tower with his grandmother. || Vivía en una torre alta con su abuela.
+His grandmother was a great witch. || Su abuela era una gran bruja.
+
+One morning, she gave Tom a wand. || Una mañana, ella le dio a Tom una varita.
+"Today you will learn your first spell," she said. || —Hoy aprenderás tu primer hechizo —dijo ella.
+Tom was very happy, but he was also nervous. || Tom estaba muy feliz, pero también estaba nervioso.
+
+"Point your wand at the candle and say: Light up!" || —Apunta tu varita a la vela y di: ¡Enciéndete!
+Tom pointed his wand. || Tom apuntó su varita.
+"Light up!" he shouted. || —¡Enciéndete! —gritó.
+Nothing happened. || No pasó nada.
+
+He tried again and again. || Lo intentó una y otra vez.
+Once, a cloud of green smoke came out. || Una vez, salió una nube de humo verde.
+Once, the cat turned blue! || ¡Otra vez, el gato se puso azul!
+Tom laughed, but the cat did not. || Tom se rio, pero el gato no.
+
+"Magic is like riding a bike," said his grandmother. || —La magia es como andar en bicicleta —dijo su abuela.
+"You need to practice, and you need to believe." || —Necesitas practicar, y necesitas creer.
+Tom closed his eyes and took a deep breath. || Tom cerró los ojos y respiró profundo.
+"Light up," he said softly. || —Enciéndete —dijo suavemente.
+The candle started to shine with a warm, golden light. || La vela empezó a brillar con una luz cálida y dorada.
+And the cat was orange again. || Y el gato volvió a ser naranjo.
+
+=== flying-books
+title: The Library of Flying Books
+title_es: La biblioteca de los libros voladores
+tags: magia, misterio
+level: 2
+emoji: 📚
+source: Original (CC0)
+---
+At the end of a quiet street, there was a very old library. || Al final de una calle tranquila, había una biblioteca muy antigua.
+Nobody went there anymore. || Ya nadie iba allí.
+One rainy afternoon, Mia opened its heavy door. || Una tarde de lluvia, Mia abrió su pesada puerta.
+
+Inside, it was dark and silent. || Adentro estaba oscuro y silencioso.
+Then she heard a sound like wings. || Entonces oyó un sonido como de alas.
+A red book flew over her head! || ¡Un libro rojo voló sobre su cabeza!
+Then a blue book, and a yellow one. || Luego un libro azul, y uno amarillo.
+Soon, hundreds of books were flying like birds. || Pronto, cientos de libros volaban como pájaros.
+
+"Hello," said a small voice. || —Hola —dijo una vocecita.
+It was a tiny old book with silver letters. || Era un libro viejito y pequeño, con letras plateadas.
+"We are lonely," it said. || —Estamos solos —dijo.
+"Nobody reads us now." || —Ahora nadie nos lee.
+"When nobody reads a book, it forgets its story." || —Cuando nadie lee un libro, el libro olvida su historia.
+
+Mia sat down on the floor. || Mia se sentó en el suelo.
+She opened the tiny book and started to read out loud. || Abrió el librito y empezó a leer en voz alta.
+One by one, the flying books came down and listened. || Uno por uno, los libros voladores bajaron y escucharon.
+
+Mia came back every day after school. || Mia volvió todos los días después del colegio.
+She brought her friends, too. || También trajo a sus amigos.
+And the old library was never lonely again. || Y la vieja biblioteca nunca más estuvo sola.
+
+=== attic-map
+title: The Map in the Attic
+title_es: El mapa del ático
+tags: aventuras, misterio
+level: 2
+emoji: 🗺️
+source: Original (CC0)
+---
+It was a cold winter day, and Leo was bored. || Era un frío día de invierno, y Leo estaba aburrido.
+He went up to the attic to look for his old toys. || Subió al ático a buscar sus juguetes viejos.
+Behind a box, he found something strange: an old map. || Detrás de una caja, encontró algo extraño: un mapa antiguo.
+
+The map showed his own house, his garden, and a big tree. || El mapa mostraba su propia casa, su jardín y un árbol grande.
+Under the tree, there was a red X. || Debajo del árbol había una X roja.
+"A treasure!" Leo said. || —¡Un tesoro! —dijo Leo.
+
+He put on his boots and his jacket. || Se puso las botas y la chaqueta.
+He took a small shovel from the kitchen. || Sacó una pala pequeña de la cocina.
+His little sister, Sofi, followed him. || Su hermana chica, Sofi, lo siguió.
+
+They walked ten steps from the door, then turned left. || Caminaron diez pasos desde la puerta y luego doblaron a la izquierda.
+They found the big tree. || Encontraron el árbol grande.
+Leo started to dig, and Sofi helped with her hands. || Leo empezó a cavar, y Sofi ayudó con sus manos.
+
+Suddenly, the shovel hit something hard. || De repente, la pala golpeó algo duro.
+It was a metal box! || ¡Era una caja de metal!
+Inside, there were old photos, a toy car, and a letter. || Adentro había fotos antiguas, un auto de juguete y una carta.
+The letter said: "I was a child in this house many years ago." || La carta decía: «Yo fui niño en esta casa hace muchos años».
+"Please take care of the big tree. Love, Grandpa." || «Por favor, cuiden el árbol grande. Con cariño, el abuelo».
+Leo and Sofi smiled. || Leo y Sofi sonrieron.
+It was the best treasure in the world. || Era el mejor tesoro del mundo.
+
+=== beanstalk
+title: Jack and the Beanstalk
+title_es: Jack y la planta de porotos
+tags: aventuras, magia
+level: 2
+emoji: 🌱
+source: Retelling of a traditional English tale (public domain). New text CC0.
+---
+Long ago, a boy named Jack lived with his mother. || Hace mucho tiempo, un niño llamado Jack vivía con su mamá.
+They were very poor. || Eran muy pobres.
+One day, his mother said, "Take our cow to the market and sell her." || Un día, su mamá le dijo: —Lleva nuestra vaca al mercado y véndela.
+
+On the road, Jack met a strange old man. || En el camino, Jack se encontró con un anciano extraño.
+"I will give you five magic beans for your cow," said the man. || —Te daré cinco porotos mágicos por tu vaca —dijo el hombre.
+Jack said yes. || Jack dijo que sí.
+When his mother saw the beans, she was very angry. || Cuando su mamá vio los porotos, se enojó mucho.
+She threw them out of the window. || Los tiró por la ventana.
+
+The next morning, Jack could not believe his eyes. || A la mañana siguiente, Jack no podía creer lo que veía.
+A giant beanstalk was growing up into the clouds! || ¡Una planta de porotos gigante crecía hasta las nubes!
+Jack climbed up, up, up. || Jack trepó y trepó, cada vez más arriba.
+
+At the top, there was a huge castle. || En la cima había un castillo enorme.
+A giant lived there, with a hen that laid golden eggs. || Allí vivía un gigante, con una gallina que ponía huevos de oro.
+"Fee-fi-fo-fum!" shouted the giant. || —¡Fi-fai-fo-fam! —gritó el gigante.
+Jack took the hen and ran. || Jack tomó la gallina y salió corriendo.
+
+He climbed down very fast, and the giant came after him. || Bajó muy rápido, y el gigante lo persiguió.
+Jack took an axe and cut the beanstalk. || Jack tomó un hacha y cortó la planta.
+The giant jumped back into the clouds just in time. || El gigante saltó de vuelta a las nubes justo a tiempo.
+Jack and his mother were never poor again. || Jack y su mamá nunca más fueron pobres.
+
+=== sky-blue
+title: Why Is the Sky Blue?
+title_es: ¿Por qué el cielo es azul?
+tags: ciencia
+level: 2
+emoji: 🌅
+source: Original (CC0)
+---
+"Dad, why is the sky blue?" asked Ana. || —Papá, ¿por qué el cielo es azul? —preguntó Ana.
+Her dad smiled and took a glass of water and a flashlight. || Su papá sonrió y tomó un vaso de agua y una linterna.
+
+"Light from the Sun looks white," he said. || —La luz del Sol se ve blanca —dijo.
+"But white light is really all the colors together: red, orange, yellow, green, blue, and violet." || —Pero la luz blanca en realidad es todos los colores juntos: rojo, naranjo, amarillo, verde, azul y violeta.
+
+He put a few drops of milk in the water and pointed the flashlight at the glass. || Puso unas gotas de leche en el agua y apuntó la linterna al vaso.
+From the side, the water looked a little blue. || Desde el costado, el agua se veía un poco azul.
+"The air around the Earth is full of tiny particles," he said. || —El aire alrededor de la Tierra está lleno de partículas diminutas —dijo.
+"When sunlight hits them, blue light bounces in every direction." || —Cuando la luz del sol choca con ellas, la luz azul rebota en todas direcciones.
+"So when you look up, you see blue everywhere." || —Por eso, cuando miras hacia arriba, ves azul por todas partes.
+
+"And why is the sky orange at sunset?" asked Ana. || —¿Y por qué el cielo se pone naranjo al atardecer? —preguntó Ana.
+"At sunset, the light travels a longer way through the air." || —Al atardecer, la luz recorre un camino más largo a través del aire.
+"Most of the blue light is lost on the way, so we see red and orange." || —Casi toda la luz azul se pierde en el camino, así que vemos rojo y naranjo.
+
+Ana looked at the sky through the window. || Ana miró el cielo por la ventana.
+"So the sky is like a big glass of light," she said. || —Entonces el cielo es como un gran vaso de luz —dijo.
+"Exactly," said Dad. || —Exacto —dijo papá.
+"Science is everywhere." || —La ciencia está en todas partes.
+
+=== growing-mountains
+title: The Mountains That Grow
+title_es: Las montañas que crecen
+tags: ciencia, aventuras
+level: 3
+emoji: 🏔️
+source: Original (CC0)
+---
+Diego lived in Chile, a long country between the sea and the mountains. || Diego vivía en Chile, un país largo entre el mar y las montañas.
+Every morning, he could see the Andes from his window. || Cada mañana, podía ver los Andes desde su ventana.
+"Mom, were the mountains always there?" he asked. || —Mamá, ¿las montañas siempre estuvieron ahí? —preguntó.
+
+"No," said his mom, who was a geologist. || —No —dijo su mamá, que era geóloga.
+"The surface of the Earth is broken into giant pieces called plates." || —La superficie de la Tierra está partida en piezas gigantes llamadas placas.
+"The plates move very slowly, about as fast as your fingernails grow." || —Las placas se mueven muy lento, más o menos tan rápido como te crecen las uñas.
+
+"Under the ocean, the Nazca Plate pushes against South America." || —Bajo el océano, la placa de Nazca empuja contra Sudamérica.
+"It slides down, deep into the Earth." || —Se desliza hacia abajo, hasta lo profundo de la Tierra.
+"This push squeezes the land, and the land folds and rises, like a rug pushed against a wall." || —Este empuje aprieta la tierra, y la tierra se pliega y se levanta, como una alfombra empujada contra una pared.
+
+"Is that why we have earthquakes?" asked Diego. || —¿Por eso tenemos terremotos? —preguntó Diego.
+"Yes. Sometimes the rocks get stuck, and then they move all at once." || —Sí. A veces las rocas se traban, y después se mueven de golpe.
+"And the volcanoes?" || —¿Y los volcanes?
+"Deep below, the sinking plate brings water, and the hot rock melts." || —Muy abajo, la placa que se hunde lleva agua, y la roca caliente se derrite.
+"Then it comes up as lava." || —Después sube como lava.
+
+Diego looked at the mountains again. || Diego miró las montañas otra vez.
+They did not look still anymore. || Ya no parecían quietas.
+"They are growing right now," he whispered. || —Están creciendo ahora mismo —susurró.
+"Very, very slowly," said Mom, and she winked. || —Muy, muy lento —dijo mamá, y le cerró un ojo.
+
+=== moon-trip
+title: A Trip to the Moon
+title_es: Un viaje a la Luna
+tags: espacio, ciencia, aventuras
+level: 2
+emoji: 🚀
+source: Original (CC0)
+---
+Three, two, one... lift off! || Tres, dos, uno... ¡despegue!
+The rocket shook, and Maya felt heavy in her seat. || El cohete se sacudió, y Maya se sintió pesada en su asiento.
+Soon the sky turned black, and the Earth looked like a blue marble. || Pronto el cielo se puso negro, y la Tierra parecía una bolita azul.
+
+In space, everything floats. || En el espacio, todo flota.
+Maya's pencil floated past her nose. || El lápiz de Maya pasó flotando frente a su nariz.
+Her water came out of the bottle in round drops. || Su agua salía de la botella en gotas redondas.
+
+After three days, they landed on the Moon. || Después de tres días, aterrizaron en la Luna.
+The ground was gray and covered with dust. || El suelo era gris y estaba cubierto de polvo.
+There was no air, so Maya wore a big white space suit. || No había aire, así que Maya usaba un gran traje espacial blanco.
+
+On the Moon, you weigh much less than on Earth. || En la Luna pesas mucho menos que en la Tierra.
+Maya jumped, and she flew high like a kangaroo! || ¡Maya saltó, y voló alto como un canguro!
+Her footprints stayed in the dust. || Sus huellas quedaron en el polvo.
+With no wind or rain, they can stay there for millions of years. || Sin viento ni lluvia, pueden quedarse ahí por millones de años.
+
+Before going home, Maya looked up. || Antes de volver a casa, Maya miró hacia arriba.
+The Earth was shining in the black sky. || La Tierra brillaba en el cielo negro.
+"Our home is so beautiful," she said. || —Nuestro hogar es tan hermoso —dijo.
+
+=== lion-mouse
+title: The Lion and the Mouse
+title_es: El león y el ratón
+tags: animales
+level: 1
+emoji: 🦁
+source: Retelling of Aesop's fable (public domain). New text CC0.
+---
+A big lion was sleeping under a tree. || Un gran león dormía bajo un árbol.
+A little mouse ran over his nose. || Un ratoncito corrió sobre su nariz.
+The lion woke up and caught the mouse with his paw. || El león despertó y atrapó al ratón con su pata.
+
+"Please, let me go!" said the mouse. || —¡Por favor, déjame ir! —dijo el ratón.
+"One day, I will help you." || —Algún día, yo te ayudaré.
+The lion laughed. || El león se rio.
+"How can a little mouse help a big lion?" || —¿Cómo puede un ratoncito ayudar a un gran león?
+But he opened his paw, and the mouse ran away. || Pero abrió su pata, y el ratón se fue corriendo.
+
+Some days later, hunters put a net in the forest. || Algunos días después, unos cazadores pusieron una red en el bosque.
+The lion walked into the net and could not get out. || El león cayó en la red y no pudo salir.
+He roared and roared. || Rugió y rugió.
+
+The mouse heard him and came running. || El ratón lo oyó y llegó corriendo.
+With his small, sharp teeth, he cut the ropes, one by one. || Con sus dientes pequeños y afilados, cortó las cuerdas, una por una.
+Soon, the lion was free. || Pronto, el león quedó libre.
+
+"Thank you, my friend," said the lion. || —Gracias, amigo mío —dijo el león.
+"You were right." || —Tenías razón.
+"Little friends can be great friends." || —Los amigos pequeños pueden ser grandes amigos.
+
+=== tortoise-hare
+title: The Tortoise and the Hare
+title_es: La tortuga y la liebre
+tags: animales, deportes
+level: 1
+emoji: 🐢
+source: Retelling of Aesop's fable (public domain). New text CC0.
+---
+The hare was the fastest animal in the forest. || La liebre era el animal más rápido del bosque.
+Every day, he laughed at the tortoise. || Todos los días, se burlaba de la tortuga.
+"You are so slow!" he said. || —¡Eres tan lenta! —le decía.
+
+One day, the tortoise said, "Let's have a race." || Un día, la tortuga dijo: —Hagamos una carrera.
+All the animals came to watch. || Todos los animales vinieron a mirar.
+The fox said, "Ready, set, go!" || El zorro dijo: —¡Preparados, listos, ya!
+
+The hare ran very fast, and soon he could not see the tortoise. || La liebre corrió muy rápido, y pronto ya no podía ver a la tortuga.
+"I have lots of time," he thought. || «Tengo mucho tiempo», pensó.
+"I will take a little nap." || «Voy a dormir una pequeña siesta».
+He lay down under a tree and fell asleep. || Se acostó bajo un árbol y se quedó dormido.
+
+The tortoise walked slowly, step by step. || La tortuga caminó lentamente, paso a paso.
+She never stopped. || Nunca se detuvo.
+She walked past the sleeping hare. || Pasó junto a la liebre dormida.
+
+When the hare woke up, he ran as fast as he could. || Cuando la liebre despertó, corrió tan rápido como pudo.
+But it was too late. || Pero era demasiado tarde.
+The tortoise was already at the finish line, and everyone was cheering. || La tortuga ya estaba en la meta, y todos la aplaudían.
+Slow and steady wins the race. || Lento pero constante se gana la carrera.
+
+=== garden-fossil
+title: The Fossil in the Garden
+title_es: El fósil del jardín
+tags: dinosaurios, ciencia, misterio
+level: 2
+emoji: 🦕
+source: Original (CC0)
+---
+Emma was planting tomatoes when her shovel hit a strange stone. || Emma estaba plantando tomates cuando su pala golpeó una piedra extraña.
+It had the shape of a big shell, with lines like a snail. || Tenía forma de concha grande, con líneas como un caracol.
+
+She ran to show it to her uncle, who worked at the museum. || Corrió a mostrársela a su tío, que trabajaba en el museo.
+"Wow, this is an ammonite!" he said. || —¡Guau, esto es una amonita! —dijo.
+"It lived in the sea at the time of the dinosaurs, more than sixty-six million years ago." || —Vivió en el mar en la época de los dinosaurios, hace más de sesenta y seis millones de años.
+
+"But we are far from the sea," said Emma. || —Pero estamos lejos del mar —dijo Emma.
+"Long ago, this land was under water," said her uncle. || —Hace mucho tiempo, esta tierra estaba bajo el agua —dijo su tío.
+"When the animal died, mud covered it." || —Cuando el animal murió, el barro lo cubrió.
+"Very slowly, the mud and the shell turned into stone." || —Muy lentamente, el barro y la concha se convirtieron en piedra.
+"That is what we call a fossil." || —Eso es lo que llamamos un fósil.
+
+Emma held the fossil in her hands. || Emma sostuvo el fósil en sus manos.
+She was holding a piece of a lost world. || Estaba sosteniendo un pedacito de un mundo perdido.
+"Can we look for more?" she asked. || —¿Podemos buscar más? —preguntó.
+Her uncle smiled and gave her a small hammer and a brush. || Su tío sonrió y le dio un martillo pequeño y un pincel.
+"Every good scientist starts with curiosity," he said. || —Todo buen científico empieza con curiosidad —dijo.
+
+=== last-goal
+title: The Last Goal
+title_es: El último gol
+tags: deportes
+level: 1
+emoji: ⚽
+source: Original (CC0)
+---
+It was the final game of the school soccer cup. || Era el partido final de la copa de fútbol del colegio.
+The score was one to one, and there was only one minute left. || El marcador iba uno a uno, y quedaba solo un minuto.
+Nico had the ball. || Nico tenía la pelota.
+
+He ran past one player, then another. || Pasó corriendo a un jugador, y luego a otro.
+He was near the goal. || Estaba cerca del arco.
+He could kick the ball himself, or pass it to Lucas. || Podía patear la pelota él mismo, o pasársela a Lucas.
+
+Lucas was the new boy. || Lucas era el niño nuevo.
+He was shy, and he had never scored a goal. || Era tímido, y nunca había hecho un gol.
+But now he was alone, in a perfect place. || Pero ahora estaba solo, en un lugar perfecto.
+
+Nico passed the ball. || Nico pasó la pelota.
+Lucas kicked it with all his strength. || Lucas la pateó con toda su fuerza.
+Goal! || ¡Gol!
+
+Everybody jumped and shouted. || Todos saltaron y gritaron.
+Lucas could not stop smiling. || Lucas no podía dejar de sonreír.
+"Why did you pass?" he asked Nico. || —¿Por qué me la pasaste? —le preguntó a Nico.
+"Because we are a team," Nico said. || —Porque somos un equipo —dijo Nico.
+
+=== missing-cookies
+title: The Missing Cookies
+title_es: Las galletas perdidas
+tags: misterio
+level: 2
+emoji: 🍪
+source: Original (CC0)
+---
+On Sunday morning, Grandma baked twelve chocolate cookies. || El domingo en la mañana, la abuela horneó doce galletas de chocolate.
+She left them on the kitchen table to cool. || Las dejó en la mesa de la cocina para que se enfriaran.
+One hour later, there were only six! || ¡Una hora después, quedaban solo seis!
+
+"We have a mystery," said Pablo, and he took his magnifying glass. || —Tenemos un misterio —dijo Pablo, y tomó su lupa.
+He looked for clues. || Buscó pistas.
+On the floor, there were small brown crumbs. || En el suelo había pequeñas migas cafés.
+The crumbs went from the table to the door. || Las migas iban desde la mesa hasta la puerta.
+
+Pablo followed the crumbs into the garden. || Pablo siguió las migas hasta el jardín.
+Near the fence, he found a tiny shoe print in the mud. || Cerca de la reja, encontró una huella de zapato chiquitita en el barro.
+"The thief has very small feet," he said. || —El ladrón tiene los pies muy chicos —dijo.
+
+Then he heard a little voice behind the bushes. || Entonces oyó una vocecita detrás de los arbustos.
+It was his sister Lola, with her teddy bears around a tiny table. || Era su hermana Lola, con sus ositos de peluche alrededor de una mesita.
+Six bears, six cookies. || Seis ositos, seis galletas.
+
+"I made a picnic for my friends," said Lola. || —Hice un pícnic para mis amigos —dijo Lola.
+Pablo laughed. || Pablo se rio.
+"Mystery solved!" || —¡Misterio resuelto!
+And Grandma brought out more cookies for everyone. || Y la abuela sacó más galletas para todos.

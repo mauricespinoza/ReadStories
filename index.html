@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CamiloReading</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Cuentos en inglés para niños que hablan español: toca una palabra para ver cómo se lee, escucharla y saber qué significa.">
+<meta name="theme-color" content="#2f3a78">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;600;700;800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Literata:opsz,wght@7..72,400;7..72,600&family=Lexend:wght@400;600&family=Andika:wght@400;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ SALUDO AL ABRIR ============ -->
+<section id="view-splash" class="view splash" hidden>
+  <div class="splash-inner">
+    <div class="splash-owl" data-owl="big"></div>
+    <h1 class="splash-hello" id="splash-hello" lang="en"></h1>
+    <p class="splash-es" id="splash-es"></p>
+    <button class="btn btn-primary btn-big" id="splash-go" type="button">¡Empezar!</button>
+  </div>
+</section>
+
+<!-- ============ BIENVENIDA / GUSTOS ============ -->
+<section id="view-welcome" class="view welcome" hidden>
+  <div class="welcome-inner">
+    <div class="welcome-owl" data-owl="big"></div>
+    <h1 class="welcome-title">¡Hola! Soy el <span>Profe Plumas</span>.</h1>
+    <p class="welcome-lead">Te voy a acompañar a leer cuentos en inglés. Si una palabra es difícil, la tocas y yo te ayudo.</p>
+
+    <label class="field-label" for="kid-name">¿Cómo te llamas?</label>
+    <input id="kid-name" class="name-input" type="text" autocomplete="off" maxlength="24" placeholder="Tu nombre">
+
+    <p class="field-label" id="interests-label">¿Qué cosas te gustan? Elige todas las que quieras.</p>
+    <div class="topic-grid" id="topic-grid" role="group" aria-labelledby="interests-label"></div>
+
+    <button class="btn btn-primary btn-big" id="welcome-go" type="button">¡Vamos a leer!</button>
+  </div>
+</section>
+
+<!-- ============ BIBLIOTECA ============ -->
+<section id="view-library" class="view library" hidden>
+  <header class="lib-head">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">C</span>
+      <span class="brand-name">Camilo<b>Reading</b></span>
+    </div>
+    <nav class="lib-nav">
+      <button class="chip-btn" id="go-words" type="button">Mis palabras <span class="count" id="words-count">0</span></button>
+      <button class="icon-btn" id="go-prefs" type="button" aria-label="Cambiar mis gustos" title="Cambiar mis gustos">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm8-3.5c0-.5 0-1-.1-1.4l2-1.6-2-3.4-2.4 1a8 8 0 0 0-2.4-1.4L14.7 2h-4l-.4 2.6a8 8 0 0 0-2.4 1.4l-2.4-1-2 3.4 2 1.6a8 8 0 0 0 0 2.8l-2 1.6 2 3.4 2.4-1a8 8 0 0 0 2.4 1.4l.4 2.6h4l.4-2.6a8 8 0 0 0 2.4-1.4l2.4 1 2-3.4-2-1.6c.1-.4.1-.9.1-1.4Z"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <div class="lib-hero">
+    <div class="lib-hello">
+      <h1 id="lib-greeting">¡Hola, Camilo!</h1>
+      <p id="lib-sub">Elige un cuento para leer hoy.</p>
+    </div>
+    <div class="lib-progress" id="lib-progress"></div>
+  </div>
+
+  <div class="filter-row" id="filter-row" role="tablist" aria-label="Filtrar por tema"></div>
+  <div class="story-grid" id="story-grid"></div>
+
+  <footer class="lib-foot">
+    Todos los cuentos son textos originales o versiones nuevas de cuentos de dominio público, libres de derechos (CC0).
+  </footer>
+</section>
+
+<!-- ============ MIS PALABRAS ============ -->
+<section id="view-words" class="view words" hidden>
+  <header class="bar">
+    <button class="icon-btn" data-back type="button" aria-label="Volver">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.4 4.6 8 12l7.4 7.4-1.4 1.4L5.2 12 14 3.2z"/></svg>
+    </button>
+    <h1 class="bar-title">Mis palabras</h1>
+    <span></span>
+  </header>
+  <div class="words-body">
+    <p class="words-intro">Aquí quedan las palabras que guardas con la estrella. Tócalas para escucharlas otra vez.</p>
+    <div class="word-list" id="word-list"></div>
+  </div>
+</section>
+
+<!-- ============ LECTOR ============ -->
+<section id="view-reader" class="view reader" hidden>
+  <header class="bar reader-bar">
+    <button class="icon-btn" data-back type="button" aria-label="Volver a la biblioteca">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.4 4.6 8 12l7.4 7.4-1.4 1.4L5.2 12 14 3.2z"/></svg>
+    </button>
+    <div class="seg" role="group" aria-label="Qué quiero tocar">
+      <button type="button" class="seg-btn on" data-mode="word" aria-pressed="true">Palabra</button>
+      <button type="button" class="seg-btn" data-mode="phrase" aria-pressed="false">Frase</button>
+    </div>
+    <div class="bar-actions">
+      <button class="tool-btn" id="toggle-es" type="button" aria-pressed="false" title="Ver el cuento en español al lado">
+        <span class="es-flag" aria-hidden="true">ES</span><span class="tool-label">Español al lado</span>
+      </button>
+      <button class="tool-btn" id="open-settings" type="button" aria-label="Letra y fondo" title="Letra y fondo">
+        <span class="aa" aria-hidden="true">Aa</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="panes" id="panes">
+    <article class="pane pane-en" id="pane-en" lang="en">
+      <div class="page" id="page-en"></div>
+    </article>
+    <aside class="pane pane-es" id="pane-es" lang="es" hidden>
+      <div class="page page-es" id="page-es"></div>
+    </aside>
+  </div>
+
+  <!-- barra de lectura en voz alta -->
+  <div class="playbar" id="playbar" hidden>
+    <button class="play-main" id="pb-toggle" type="button" aria-label="Pausar">
+      <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg>
+      <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+    </button>
+    <div class="pb-info">
+      <span class="pb-title">Leyendo en voz alta</span>
+      <div class="pb-track"><div class="pb-fill" id="pb-fill"></div></div>
+    </div>
+    <button class="pb-speed" id="pb-speed" type="button">Normal</button>
+    <button class="icon-btn" id="pb-stop" type="button" aria-label="Detener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6h12v12H6z"/></svg>
+    </button>
+  </div>
+</section>
+
+<!-- ============ GLOBO DE AYUDA (palabra / frase) ============ -->
+<div class="bubble" id="bubble" role="dialog" aria-modal="false" aria-labelledby="bubble-word" hidden>
+  <div class="bubble-head">
+    <span class="bubble-owl" data-owl="mini"></span>
+    <span class="bubble-who">Profe Plumas</span>
+    <button class="icon-btn small" id="bubble-close" type="button" aria-label="Cerrar">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6.4 5 5.6 5.6L17.6 5 19 6.4 13.4 12l5.6 5.6-1.4 1.4-5.6-5.6L6.4 19 5 17.6l5.6-5.6L5 6.4z"/></svg>
+    </button>
+  </div>
+  <div class="bubble-body">
+    <p class="bubble-word" id="bubble-word" lang="en"></p>
+    <p class="bubble-say-label">Se lee así:</p>
+    <p class="bubble-pron" id="bubble-pron"></p>
+    <div class="bubble-actions">
+      <button class="act act-listen" id="act-listen" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4Zm12.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4ZM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6Z"/></svg>
+        <span>Escuchar</span>
+      </button>
+      <button class="act act-slow" id="act-slow" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4Z"/><circle cx="18" cy="12" r="2.2"/></svg>
+        <span>Lento</span>
+      </button>
+      <button class="act act-mean" id="act-mean" type="button" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5.5C10 4 7 3.5 3 4v15c4-.5 7 0 9 1.5 2-1.5 5-2 9-1.5V4c-4-.5-7 0-9 1.5Zm-1 12.4c-1.8-.8-4-1.1-6-1V6c2.3-.1 4.4.3 6 1.3v10.6Zm8-1c-2-.1-4.2.2-6 1V7.3c1.6-1 3.7-1.4 6-1.3v10.9Z"/></svg>
+        <span id="act-mean-label">Significado</span>
+      </button>
+      <button class="act act-save" id="act-save" type="button" aria-pressed="false" aria-label="Guardar en Mis palabras" title="Guardar en Mis palabras">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2.8 2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2 6.4 20.2l1.1-6.3L2.9 9.5l6.3-.9z"/></svg>
+      </button>
+    </div>
+    <div class="bubble-meaning" id="bubble-meaning" hidden></div>
+  </div>
+</div>
+
+<!-- ============ AJUSTES DE LECTURA ============ -->
+<div class="sheet-backdrop" id="settings-backdrop" hidden></div>
+<div class="sheet" id="settings" role="dialog" aria-modal="true" aria-labelledby="settings-title" hidden>
+  <div class="sheet-grip" aria-hidden="true"></div>
+  <h2 id="settings-title">Letra y fondo</h2>
+
+  <div class="set-row">
+    <span class="set-label" id="lbl-size">Tamaño de letra</span>
+    <div class="stepper" role="group" aria-labelledby="lbl-size">
+      <button type="button" class="step-btn" id="size-down" aria-label="Letra más chica"><span style="font-size:.85rem">A</span></button>
+      <input type="range" id="size-range" min="16" max="40" step="1" aria-labelledby="lbl-size">
+      <button type="button" class="step-btn" id="size-up" aria-label="Letra más grande"><span style="font-size:1.35rem">A</span></button>
+    </div>
+  </div>
+
+  <div class="set-row">
+    <span class="set-label" id="lbl-line">Espacio entre líneas</span>
+    <div class="opts" id="line-opts" role="radiogroup" aria-labelledby="lbl-line"></div>
+  </div>
+
+  <div class="set-row">
+    <span class="set-label" id="lbl-font">Tipo de letra</span>
+    <div class="opts font-opts" id="font-opts" role="radiogroup" aria-labelledby="lbl-font"></div>
+  </div>
+
+  <div class="set-row">
+    <span class="set-label" id="lbl-theme">Color de fondo</span>
+    <div class="opts swatches" id="theme-opts" role="radiogroup" aria-labelledby="lbl-theme"></div>
+  </div>
+
+  <div class="set-row" id="voice-row">
+    <span class="set-label" id="lbl-voice">Voz para leer en inglés</span>
+    <div class="voice-list" id="voice-list" role="radiogroup" aria-labelledby="lbl-voice"></div>
+    <div id="device-voice" hidden>
+      <label class="set-label" for="voice-select">Voz de este dispositivo</label>
+      <select id="voice-select"></select>
+      <p class="set-hint" id="voice-hint"></p>
+    </div>
+  </div>
+
+  <div class="set-row" id="voice-row-es">
+    <span class="set-label" id="lbl-voice-es">Voz para leer en español</span>
+    <div class="voice-list" id="voice-list-es" role="radiogroup" aria-labelledby="lbl-voice-es"></div>
+  </div>
+
+  <div class="set-row">
+    <span class="set-label" id="lbl-rate">Velocidad de lectura</span>
+    <div class="opts" id="rate-opts" role="radiogroup" aria-labelledby="lbl-rate"></div>
+  </div>
+
+  <button class="btn btn-primary" id="settings-done" type="button">Listo</button>
+</div>
+
+<!-- ============ PROFE PLUMAS (flotante) ============ -->
+<button class="owl-fab" id="owl-fab" type="button" aria-label="Pedir ayuda al Profe Plumas">
+  <span data-owl="fab"></span>
+</button>
+<div class="owl-tip" id="owl-tip" role="status" hidden>
+  <p id="owl-tip-text"></p>
+  <button class="owl-tip-next" id="owl-tip-next" type="button">Otro consejo</button>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="data/stories.js"></script>
+<script src="data/dictionary.js"></script>
+<script src="data/audio.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

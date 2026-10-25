@@ -1,0 +1,571 @@
+# CamiloReading — diccionario
+# Formato:  palabra | cómo se lee (español chileno simple) | significado
+# Convenciones de pronunciación:
+#   - la sílaba con tilde es la que suena más fuerte:  uí-serd
+#   - j = "h" suavecita (como en "jarro"):  jaus (house)
+#   - sh = "sh" como en "shampoo"
+#   - z = sacando la puntita de la lengua entre los dientes (sonido "th"):  zri (three)
+#   - d en "the/this/that" = "d" suave con la lengua entre los dientes
+#   - y = como "y" en "yo" (para la J inglesa):  yamp (jump)
+#   - u antes de vocal = "w":  uó-ter (water)
+a | a | un / una
+about | a-báut | sobre / acerca de; más o menos
+after | áf-ter | después de
+afternoon | af-ter-nún | tarde (después del almuerzo)
+again | a-guén | otra vez
+against | a-guénst | contra
+ago | a-góu | hace (tiempo atrás): long ago = hace mucho tiempo
+air | er | aire
+all | ol | todo / todos
+alone | a-lóun | solo / sola
+already | ol-ré-di | ya
+also | ól-sou | también
+always | ól-ueis | siempre
+america | a-mé-ri-ka | América
+ammonite | á-mo-nait | amonita (fósil marino con concha en espiral)
+an | an | un / una (antes de vocal)
+ana | á-na | Ana (nombre)
+and | and | y
+andes | án-dis | los Andes
+angry | án-gri | enojado / enojada
+animal | á-ni-mal | animal
+animals | á-ni-mals | animales
+another | a-ná-der | otro / otra
+anymore | e-ni-mór | ya no (más)
+are | ar | son / están / eres
+around | a-ráund | alrededor de
+as | as | como / tan (as fast as = tan rápido como)
+asked | askt | preguntó (ask = preguntar)
+asleep | a-slíp | dormido (fell asleep = se quedó dormido)
+at | at | en / a
+attic | á-tik | ático / entretecho
+away | a-uéi | lejos (ran away = se fue corriendo)
+axe | aks | hacha
+back | bak | de vuelta / atrás
+baked | beikt | horneó (bake = hornear)
+ball | bol | pelota
+be | bi | ser / estar
+beans | bins | porotos
+beanstalk | bín-stok | planta (tallo) de porotos
+bears | bers | osos
+beautiful | biú-ti-ful | hermoso / bonito
+because | bi-kós | porque
+before | bi-fór | antes de
+behind | bi-jáind | detrás de
+believe | bi-lív | creer
+below | bi-lóu | abajo / debajo
+best | best | mejor (el mejor)
+between | bi-tuín | entre
+big | big | grande
+bike | baik | bicicleta
+birds | berds | pájaros
+black | blak | negro
+blue | blu | azul
+book | buk | libro
+books | buks | libros
+boots | buts | botas
+bored | bord | aburrido
+bottle | bá-tel | botella
+bounces | báun-ses | rebota (bounce = rebotar)
+box | baks | caja
+boy | boi | niño
+breath | brez | respiración (take a deep breath = respirar profundo)
+brings | brings | trae / lleva (bring = traer)
+broken | bróu-ken | roto / partido
+brought | brot | trajo (bring = traer)
+brown | braun | café (color)
+brush | brash | pincel / cepillo
+bushes | bú-shes | arbustos
+but | bat | pero
+by | bai | por / junto a (one by one = uno por uno)
+call | kol | llamar
+called | kold | llamado / llamó
+came | keim | vino / llegó (come = venir)
+can | kan | puede / poder
+candle | kán-del | vela
+car | kar | auto
+care | ker | cuidado (take care of = cuidar)
+castle | ká-sel | castillo
+cat | kat | gato
+caught | kot | atrapó (catch = atrapar)
+cheering | chí-ring | aplaudiendo / alentando
+child | chaild | niño / niña
+chile | chí-li | Chile
+chocolate | chók-let | chocolate
+climbed | klaimd | trepó / subió (climb = trepar)
+closed | klousd | cerró (close = cerrar)
+cloud | klaud | nube
+clouds | klauds | nubes
+clues | klus | pistas
+cold | kould | frío
+colors | ká-lers | colores
+comes | kams | viene / sube (come = venir)
+cookies | kú-kis | galletas
+cool | kul | enfriarse; fresco / genial
+could | kud | podía / pudo
+country | kán-tri | país
+covered | ká-verd | cubrió / cubierto (cover = cubrir)
+cow | kau | vaca
+crumbs | krams | migas
+cup | kap | copa / taza
+curiosity | kiu-ri-á-si-ti | curiosidad
+cut | kat | cortó / cortar
+dad | dad | papá
+dark | dark | oscuro
+day | dei | día
+days | deis | días
+deep | dip | profundo
+did | did | hizo (do = hacer); se usa para preguntar en pasado
+died | daid | murió (die = morir)
+diego | di-éi-gou | Diego (nombre)
+dig | dig | cavar
+dinosaurs | dái-no-sors | dinosaurios
+direction | di-rék-shon | dirección
+door | dor | puerta
+down | daun | abajo / hacia abajo
+drops | draps | gotas
+dust | dast | polvo
+earth | erz | la Tierra (planeta); tierra
+earthquakes | érz-kueiks | terremotos
+eggs | egs | huevos
+emma | é-ma | Emma (nombre)
+end | end | final / fin
+every | é-vri | cada / todos los
+everybody | é-vri-ba-di | todos / todo el mundo
+everyone | é-vri-uan | todos / todo el mundo
+everything | é-vri-zing | todo
+everywhere | é-vri-uer | por todas partes
+exactly | ek-sákt-li | exactamente / exacto
+eyes | ais | ojos
+far | far | lejos
+fast | fast | rápido
+fastest | fás-test | el más rápido
+fee | fi | (palabra inventada que grita el gigante)
+feet | fit | pies
+fell | fel | cayó (fall = caer; fell asleep = se quedó dormido)
+felt | felt | sintió (feel = sentir)
+fence | fens | reja / cerca
+few | fiu | pocos (a few = unos pocos)
+fi | fai | (palabra inventada que grita el gigante)
+final | fái-nal | final
+fingernails | fín-guer-neils | uñas (de las manos)
+finish | fí-nish | terminar (finish line = meta)
+first | ferst | primero
+five | faiv | cinco
+flashlight | flásh-lait | linterna
+flew | flu | voló (fly = volar)
+floated | flóu-ted | flotó (float = flotar)
+floats | flouts | flota
+floor | flor | suelo / piso
+flying | flái-ing | volando / voladores
+fo | fou | (palabra inventada que grita el gigante)
+folds | foulds | se pliega / se dobla (fold = doblar)
+followed | fá-loud | siguió (follow = seguir)
+footprints | fút-prints | huellas (de pies)
+for | for | para / por
+forest | fó-rest | bosque
+forgets | for-guéts | olvida (forget = olvidar)
+fossil | fá-sel | fósil
+found | faund | encontró (find = encontrar)
+fox | faks | zorro
+free | fri | libre
+friend | frend | amigo / amiga
+friends | frends | amigos
+from | fram | de / desde
+full | ful | lleno
+fum | fam | (palabra inventada que grita el gigante)
+game | geim | partido / juego
+garden | gár-den | jardín
+gave | geiv | dio (give = dar)
+geologist | yi-á-lo-yist | geólogo / geóloga
+get | guet | conseguir / llegar (get out = salir; get stuck = trabarse)
+giant | yái-ant | gigante
+give | guiv | dar
+glass | glas | vaso; vidrio (magnifying glass = lupa)
+go | gou | ir (Ready, set, go! = ¡Preparados, listos, ya!)
+goal | goul | gol; arco
+going | góu-ing | yendo (going home = volver a casa)
+golden | góul-den | dorado / de oro
+good | gud | bueno
+grandma | grán-ma | abuela / abuelita
+grandmother | gránd-ma-der | abuela
+grandpa | grán-pa | abuelo / abuelito
+gray | grei | gris
+great | greit | grande / genial
+green | grin | verde
+ground | graund | suelo
+grow | grou | crecer
+growing | gróu-ing | creciendo
+had | jad | tenía / tuvo (have = tener)
+hammer | já-mer | martillo
+hands | jands | manos
+happened | já-pend | pasó / sucedió (happen = pasar)
+happy | já-pi | feliz
+hard | jard | duro; difícil
+hare | jer | liebre
+has | jas | tiene
+have | jav | tener
+he | ji | él
+head | jed | cabeza
+heard | jerd | oyó (hear = oír)
+heavy | jé-vi | pesado
+held | jeld | sostuvo (hold = sostener)
+hello | je-lóu | hola
+help | jelp | ayudar / ayuda
+helped | jelpt | ayudó
+hen | jen | gallina
+her | jer | ella / su (de ella)
+high | jai | alto
+him | jim | él / lo / le
+himself | jim-sélf | él mismo
+his | jis | su (de él)
+hit | jit | golpeó / golpear
+hits | jits | golpea / choca
+holding | jóul-ding | sosteniendo
+home | joum | hogar / casa
+hot | jat | caliente
+hour | áu-er | hora
+house | jaus | casa
+how | jau | cómo
+huge | jiuch | enorme
+hundreds | ján-dreds | cientos
+hunters | ján-ters | cazadores
+i | ai | yo
+in | in | en / dentro de
+inside | in-sáid | adentro
+into | ín-tu | hacia dentro de / en
+is | is | es / está
+it | it | eso / lo / la
+its | its | su (de eso)
+jack | yak | Jack (nombre)
+jacket | yá-ket | chaqueta
+jumped | yampt | saltó (jump = saltar)
+just | yast | justo / solo (just in time = justo a tiempo)
+kangaroo | kan-ga-rú | canguro
+kick | kik | patear
+kicked | kikt | pateó
+kitchen | kí-chen | cocina
+laid | leid | puso (huevos) (lay = poner)
+land | land | tierra / terreno
+landed | lán-ded | aterrizó (land = aterrizar)
+late | leit | tarde (too late = demasiado tarde)
+later | léi-ter | después / más tarde
+laughed | laft | se rio (laugh = reír; laugh at = burlarse de)
+lava | lá-va | lava
+lay | lei | se acostó (lie down = acostarse)
+learn | lern | aprender
+left | left | izquierda; dejó / quedaba (leave = dejar)
+leo | lí-ou | Leo (nombre)
+less | les | menos
+let | let | dejar / permitir (let me go = déjame ir)
+let's | lets | hagamos… / vamos a… (let us)
+letter | lé-ter | carta; letra
+letters | lé-ters | letras; cartas
+library | lái-bre-ri | biblioteca
+lift | lift | levantar (lift off = despegue)
+light | lait | luz; encender (light up = enciéndete)
+like | laik | como; gustar
+line | lain | línea (finish line = meta)
+lines | lains | líneas
+lion | lái-on | león
+listened | lí-send | escuchó (listen = escuchar)
+little | lí-tel | pequeño / chico
+lived | livd | vivió / vivía (live = vivir)
+lola | lóu-la | Lola (nombre)
+lonely | lóun-li | solo / sola (que se siente solo)
+long | long | largo (long ago = hace mucho tiempo)
+longer | lón-guer | más largo
+look | luk | mirar (look for = buscar)
+looked | lukt | miró; se veía
+looks | luks | se ve / parece
+lost | lost | perdido / se perdió
+lots | lats | mucho (lots of = mucho)
+loud | laud | fuerte (sonido) (out loud = en voz alta)
+love | lav | amor / con cariño
+lucas | lú-kas | Lucas (nombre)
+made | meid | hizo (make = hacer)
+magic | má-yik | magia / mágico
+magnifying | mág-ni-fai-ing | que aumenta (magnifying glass = lupa)
+man | man | hombre
+many | mé-ni | muchos
+map | map | mapa
+marble | már-bel | bolita (de jugar)
+market | már-ket | mercado
+maya | mái-a | Maya (nombre)
+me | mi | me / mí
+melts | melts | se derrite (melt = derretir)
+met | met | conoció / se encontró con (meet = conocer)
+metal | mé-tal | metal
+mia | mí-a | Mia (nombre)
+milk | milk | leche
+million | míl-ion | millón
+millions | míl-ions | millones
+minute | mí-nit | minuto
+mom | mam | mamá
+moon | mun | Luna
+more | mor | más
+morning | mór-ning | mañana (parte del día)
+most | moust | la mayoría / casi todo
+mother | má-der | madre / mamá
+mountains | máun-tens | montañas
+mouse | maus | ratón
+move | muv | moverse
+much | mach | mucho
+mud | mad | barro
+museum | miu-sí-am | museo
+my | mai | mi
+mystery | mís-te-ri | misterio
+named | neimd | llamado (de nombre)
+nap | nap | siesta
+nazca | nás-ka | Nazca (placa tectónica)
+near | nir | cerca de
+need | nid | necesitar
+nervous | nér-vas | nervioso
+net | net | red
+never | né-ver | nunca
+new | nu | nuevo
+next | nekst | siguiente / próximo
+nico | ní-kou | Nico (nombre)
+no | nou | no / ningún / sin
+nobody | nóu-ba-di | nadie
+nose | nous | nariz
+not | nat | no
+nothing | ná-zing | nada
+now | nau | ahora
+ocean | óu-shan | océano
+of | av | de
+off | of | fuera / apagado (lift off = despegue)
+old | ould | viejo / antiguo
+on | on | en / sobre
+once | uans | una vez
+one | uan | uno / una
+only | óun-li | solo / solamente
+opened | óu-pend | abrió (open = abrir)
+or | or | o
+orange | ó-rinch | naranjo (color); naranja
+our | áur | nuestro / nuestra
+out | aut | afuera / fuera
+over | óu-ver | sobre / por encima de
+own | oun | propio
+pablo | pá-blou | Pablo (nombre)
+particles | pár-ti-kels | partículas
+pass | pas | pasar (la pelota)
+passed | past | pasó (la pelota)
+past | past | junto a / más allá de
+paw | po | pata (de animal)
+pencil | pén-sil | lápiz
+perfect | pér-fekt | perfecto
+photos | fóu-tous | fotos
+picnic | pík-nik | pícnic
+piece | pis | pedazo / pieza
+pieces | pí-ses | pedazos / piezas
+place | pleis | lugar
+planting | plán-ting | plantando
+plate | pleit | placa (tectónica); plato
+plates | pleits | placas; platos
+player | pléi-er | jugador
+please | plis | por favor
+point | point | apuntar
+pointed | póin-ted | apuntó
+poor | pur | pobre
+practice | prák-tis | practicar
+print | print | huella / marca
+push | push | empuje / empujar
+pushed | pusht | empujado / empujó
+pushes | pú-shes | empuja
+put | put | puso / poner (put on = ponerse)
+quiet | kuái-et | tranquilo / silencioso
+race | reis | carrera
+rain | rein | lluvia
+rainy | réi-ni | lluvioso / de lluvia
+ran | ran | corrió (run = correr)
+read | rid | leer
+reads | rids | lee
+ready | ré-di | listo / preparado
+really | rí-li | de verdad / en realidad
+red | red | rojo
+riding | rái-ding | andar (en bici o a caballo)
+right | rait | correcto (you were right = tenías razón); derecha (right now = ahora mismo)
+rises | rái-ses | se levanta / sube (rise = subir)
+road | roud | camino
+roared | rord | rugió (roar = rugir)
+rock | rak | roca
+rocket | rá-ket | cohete
+rocks | raks | rocas
+ropes | roups | cuerdas
+round | raund | redondo
+rug | rag | alfombra
+running | rá-ning | corriendo
+said | sed | dijo (say = decir)
+sat | sat | se sentó (sit = sentarse)
+saw | so | vio (see = ver)
+say | sei | decir
+school | skul | colegio / escuela
+science | sái-ens | ciencia
+scientist | sái-en-tist | científico / científica
+score | skor | marcador
+scored | skord | anotó (score = anotar un gol)
+sea | si | mar
+seat | sit | asiento
+see | si | ver
+sell | sel | vender
+set | set | listos (Ready, set, go! = ¡Preparados, listos, ya!)
+shape | sheip | forma
+sharp | sharp | afilado
+she | shi | ella
+shell | shel | concha / caparazón
+shine | shain | brillar
+shining | shái-ning | brillando
+shoe | shu | zapato
+shook | shuk | se sacudió (shake = sacudir)
+shouted | sháu-ted | gritó (shout = gritar)
+shovel | shá-vel | pala
+show | shou | mostrar
+showed | shoud | mostró
+shy | shai | tímido
+side | said | lado / costado
+silent | sái-lent | silencioso
+silver | síl-ver | plateado / plata
+sinking | sín-king | que se hunde (sink = hundirse)
+sister | sís-ter | hermana
+six | siks | seis
+sixty | síks-ti | sesenta
+sky | skai | cielo
+sleeping | slí-ping | durmiendo / dormido
+slides | slaids | se desliza (slide = deslizar)
+slow | slou | lento
+slowly | slóu-li | lentamente
+small | smol | pequeño / chico
+smiled | smaild | sonrió (smile = sonreír)
+smiling | smái-ling | sonriendo
+smoke | smouk | humo
+snail | sneil | caracol
+so | sou | tan / entonces / así que
+soccer | sá-ker | fútbol
+sofi | sóu-fi | Sofi (nombre)
+softly | sóft-li | suavemente
+solved | salvd | resuelto (solve = resolver)
+some | sam | algunos / unos
+something | sám-zing | algo
+sometimes | sám-taims | a veces
+soon | sun | pronto
+sound | saund | sonido
+south | sauz | sur (South America = Sudamérica)
+space | speis | espacio
+spell | spel | hechizo
+squeezes | skuí-ses | aprieta (squeeze = apretar)
+started | stár-ted | empezó (start = empezar)
+starts | starts | empieza
+stay | stei | quedarse
+stayed | steid | se quedó / se quedaron
+steady | sté-di | constante / firme
+step | step | paso (step by step = paso a paso)
+steps | steps | pasos
+still | stil | quieto; todavía
+stone | stoun | piedra
+stop | stap | parar / dejar de
+stopped | stapt | se detuvo / paró
+story | stó-ri | historia / cuento
+strange | streinch | extraño / raro
+street | strit | calle
+strength | strengz | fuerza
+stuck | stak | atascado / trabado
+suddenly | sá-den-li | de repente
+suit | sut | traje (space suit = traje espacial)
+sun | san | Sol
+sunday | sán-dei | domingo
+sunlight | sán-lait | luz del sol
+sunset | sán-set | atardecer / puesta de sol
+surface | sér-fes | superficie
+table | téi-bel | mesa
+take | teik | tomar / llevar (take care = cuidar; take a nap = dormir siesta)
+tall | tol | alto
+team | tim | equipo
+teddy | té-di | osito (teddy bear = oso de peluche)
+teeth | tiz | dientes
+ten | ten | diez
+than | dan | que (en comparaciones: más… que)
+thank | zank | agradecer (thank you = gracias)
+that | dat | ese / eso / que
+the | da | el / la / los / las
+them | dem | ellos / los / las
+then | den | entonces / luego
+there | der | allí / ahí (there was = había)
+they | dei | ellos / ellas
+thief | zif | ladrón
+this | dis | este / esto
+thought | zot | pensó (think = pensar)
+three | zri | tres
+threw | zru | tiró / lanzó (throw = tirar)
+through | zru | a través de / por
+time | taim | tiempo; vez (just in time = justo a tiempo)
+tiny | tái-ni | diminuto / chiquitito
+to | tu | a / hacia / para
+today | tu-déi | hoy
+together | tu-gué-der | juntos
+tom | tam | Tom (nombre)
+tomatoes | to-méi-tous | tomates
+too | tu | también; demasiado
+took | tuk | tomó / sacó (take = tomar)
+top | tap | cima / parte de arriba
+tortoise | tór-tas | tortuga (de tierra)
+tower | táu-er | torre
+toy | toi | juguete
+toys | tois | juguetes
+travels | trá-vels | viaja / recorre (travel = viajar)
+treasure | tré-sher | tesoro
+tree | tri | árbol
+tried | traid | intentó (try = intentar)
+turned | ternd | se volvió / se puso; dobló (turn = girar, volverse)
+twelve | tuelv | doce
+two | tu | dos
+uncle | án-kel | tío
+under | án-der | debajo de / bajo
+up | ap | arriba / hacia arriba
+us | as | nos / nosotros
+very | vé-ri | muy
+violet | vái-o-let | violeta
+voice | vois | voz
+volcanoes | val-kéi-nous | volcanes
+walked | uokt | caminó (walk = caminar)
+wall | uol | pared / muro
+wand | uand | varita (mágica)
+warm | uorm | cálido / tibio
+was | uas | era / estaba / fue (be = ser, estar)
+watch | uach | mirar / observar
+water | uó-ter | agua
+way | uei | camino / manera
+we | ui | nosotros
+weigh | uei | pesar
+went | uent | fue / fueron (go = ir)
+were | uer | eran / estaban / fueron
+what | uat | qué / lo que
+when | uen | cuando
+whispered | uís-perd | susurró (whisper = susurrar)
+white | uait | blanco
+who | ju | quién / que
+why | uai | por qué
+will | uil | (indica futuro: I will help = ayudaré)
+wind | uind | viento
+window | uín-dou | ventana
+wings | uings | alas
+winked | uinkt | guiñó un ojo (wink = guiñar)
+wins | uins | gana (win = ganar)
+winter | uín-ter | invierno
+witch | uich | bruja
+with | uiz | con
+wizard | uí-serd | mago
+woke | uouk | despertó (wake up = despertar)
+wore | uor | usaba / llevaba puesto (wear = usar ropa)
+worked | uerkt | trabajaba (work = trabajar)
+world | uorld | mundo
+wow | uau | ¡guau!
+x | eks | X (letra equis)
+years | yirs | años
+yellow | yé-lou | amarillo
+yes | yes | sí
+you | iu | tú / usted / ustedes
+your | iur | tu / tus
+last | last | último / pasado (at last = por fin)
+missing | mí-sing | perdido / que falta
+trip | trip | viaje
