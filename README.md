@@ -1,4 +1,4 @@
-# CamiloReading
+# ReadStories
 
 Una app web para que un niño que habla español lea cuentos en inglés, a su ritmo y sin distracciones.
 
